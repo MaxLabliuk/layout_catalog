@@ -222,4 +222,8 @@ body {
   line-height: 13px;
   font-family: "Roboto", sans-serif; }
 
+.main-title {
+  visibility: hidden;
+  height: 0; }
+
 /*# sourceMappingURL=main.css.map */
