@@ -1,0 +1,17 @@
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
+  .price__num {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px; }
+
+/*# sourceMappingURL=price.css.map */

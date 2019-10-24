@@ -1,0 +1,25 @@
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 16px; }
+  .rating__stars-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 91px; }
+  .rating__stars-star {
+    width: 15px;
+    height: 15px; }
+  .rating .star--nonactive {
+    background: url("../images/star.svg") no-repeat; }
+  .rating .star--active {
+    background: url("../images/star-active.svg") no-repeat; }
+
+/*# sourceMappingURL=rating.css.map */

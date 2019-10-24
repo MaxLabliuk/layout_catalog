@@ -1,0 +1,44 @@
+.stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1px 0 0 1px; }
+  .stars:last-child {
+    margin-right: 0; }
+  .stars__star:nth-child(-n + 5) {
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    background: url("../images/star.svg") no-repeat; }
+
+.stars--1 > .stars__star:nth-child(-n + 1) {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars--2 > .stars__star:nth-child(-n + 2) {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars--3 > .stars__star:nth-child(-n + 3) {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars--4 > .stars__star:nth-child(-n + 4) {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat; }
+
+.stars--5 > .stars__star:nth-child(-n + 5) {
+  width: 15px;
+  height: 15px;
+  margin-right: 4px;
+  background: url("../images/star-active.svg") no-repeat; }
+
+/*# sourceMappingURL=stars.css.map */
